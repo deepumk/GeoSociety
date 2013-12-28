@@ -1,0 +1,17 @@
+<rm
+   name=".svn/prop-base/80-27.png.svn-revert"/>
+<modify-entry
+   committed-rev="17"
+   committed-date="2013-12-26T07:25:48.548021Z"
+   name="80-27.png"
+   checksum="51ea6f81044b1542c5d3bb9d0f528ab6"
+   last-author="admin"/>
+<delete-changelist
+   name="80-27.png"/>
+<committed
+   name="80-27.png"
+   revision="17"/>
+<modify-wcprop
+   name="80-27.png"
+   propname="svn:wc:ra_dav:version-url"
+   propval="/svn/GeoSociety/!svn/ver/17/trunk/Geosociety/Resources/avatars/80-27.png"/>

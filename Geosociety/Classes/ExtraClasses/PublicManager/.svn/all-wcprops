@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/GeoSociety/!svn/ver/5/trunk/Geosociety/Classes/ExtraClasses/PublicManager
+END
+CCBundle.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/GeoSociety/!svn/ver/5/trunk/Geosociety/Classes/ExtraClasses/PublicManager/CCBundle.cpp
+END
+BaseData.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/GeoSociety/!svn/ver/5/trunk/Geosociety/Classes/ExtraClasses/PublicManager/BaseData.cpp
+END
+CCBundle.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/GeoSociety/!svn/ver/5/trunk/Geosociety/Classes/ExtraClasses/PublicManager/CCBundle.h
+END
+DataInputStream.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/GeoSociety/!svn/ver/5/trunk/Geosociety/Classes/ExtraClasses/PublicManager/DataInputStream.cpp
+END
+BaseData.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/GeoSociety/!svn/ver/5/trunk/Geosociety/Classes/ExtraClasses/PublicManager/BaseData.h
+END
+DataInputStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/GeoSociety/!svn/ver/5/trunk/Geosociety/Classes/ExtraClasses/PublicManager/DataInputStream.h
+END

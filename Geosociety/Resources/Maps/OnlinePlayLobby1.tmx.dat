@@ -1,0 +1,6 @@
+Warp Town|Walk Over||Left|Still|17|16||Play Sound	Door~Relocate User	town.tmx^14^6~
+Warp Town 2|Walk Over||Left|Still|18|16||Call Event	Warp Town~
+Warp Town 3|Walk Over||Left|Still|19|16||Call Event	Warp Town~
+Warp Down 1|Walk Over||Left|Still|8|15||Relocate User	OnlinePlayLobby2.tmx^21^15~
+Warp Down 2|Walk Over||Left|Still|7|15||Relocate User	OnlinePlayLobby2.tmx^20^15~
+Agent|View Collision x1|8Mark.png|Down|Still|10|10||IF	Global Variable^IAP.OnlinePlay^F~Display Message	Dude, it seems your not a Member of the Online Play Lobby.^80-08.png~Ask Question - Two Answers	Would you like to purchase membership?^Yes^No~IF	Global Variable^SYSYesNoAnswer^T~IAP	A~IF	Global Variable^SYSYesNoAnswer^T~Update Variable	IAP.OnlinePlay^T~Move Event	USER^Left~Save Game	~Display Message	Welcome to the Online Play Lobby.^80-08.png~ELSE	~Move Event	USER^Right~Display Message	The Payment was not made. Please come back another time.^80-08.png~END IF	~ELSE	~Move Event	USER^Right~Display Message	Please come back another time.^80-08.png~END IF	~ELSE	~END IF	~

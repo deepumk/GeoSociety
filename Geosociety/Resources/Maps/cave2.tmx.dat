@@ -1,0 +1,2 @@
+Block|Action Button|femaledarkgray.png|Down|Still|19|36||Display Message	I slipped and dropped my Bag.^~Display Message	I can't find it anywhere!^~
+Warp Cave 1|Walk Over||Left|Still|27|36||Fade Out	~Move Event	USER^Face Down~Relocate User	cave1.tmx^27^37~Fade In	~

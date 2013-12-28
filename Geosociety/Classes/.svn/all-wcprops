@@ -1,0 +1,209 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/GeoSociety/!svn/ver/5/trunk/Geosociety/Classes
+END
+menuScene+items.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/GeoSociety/!svn/ver/19/trunk/Geosociety/Classes/menuScene+items.cpp
+END
+menuScene+Touch.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/GeoSociety/!svn/ver/19/trunk/Geosociety/Classes/menuScene+Touch.cpp
+END
+battleObject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/GeoSociety/!svn/ver/5/trunk/Geosociety/Classes/battleObject.cpp
+END
+dataDictionary.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/GeoSociety/!svn/ver/5/trunk/Geosociety/Classes/dataDictionary.h
+END
+menuScene+Help.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/GeoSociety/!svn/ver/19/trunk/Geosociety/Classes/menuScene+Help.cpp
+END
+menuScene+Scripts.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/GeoSociety/!svn/ver/19/trunk/Geosociety/Classes/menuScene+Scripts.h
+END
+monsterScene.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/GeoSociety/!svn/ver/5/trunk/Geosociety/Classes/monsterScene.h
+END
+homeScene.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/GeoSociety/!svn/ver/5/trunk/Geosociety/Classes/homeScene.h
+END
+gameEvent.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/GeoSociety/!svn/ver/19/trunk/Geosociety/Classes/gameEvent.cpp
+END
+menuScene+GameEngine.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/GeoSociety/!svn/ver/19/trunk/Geosociety/Classes/menuScene+GameEngine.cpp
+END
+ElectrinicaAppDelegate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/GeoSociety/!svn/ver/10/trunk/Geosociety/Classes/ElectrinicaAppDelegate.cpp
+END
+gearLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/GeoSociety/!svn/ver/19/trunk/Geosociety/Classes/gearLayer.h
+END
+monster.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/GeoSociety/!svn/ver/5/trunk/Geosociety/Classes/monster.cpp
+END
+menuScene.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/GeoSociety/!svn/ver/19/trunk/Geosociety/Classes/menuScene.h
+END
+HelloWorldScene.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/GeoSociety/!svn/ver/5/trunk/Geosociety/Classes/HelloWorldScene.h
+END
+battleScene.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/GeoSociety/!svn/ver/19/trunk/Geosociety/Classes/battleScene.h
+END
+dataDictionary.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/GeoSociety/!svn/ver/5/trunk/Geosociety/Classes/dataDictionary.cpp
+END
+questTemplate.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/GeoSociety/!svn/ver/19/trunk/Geosociety/Classes/questTemplate.h
+END
+menuScene+items.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/GeoSociety/!svn/ver/19/trunk/Geosociety/Classes/menuScene+items.h
+END
+monsterScene.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/GeoSociety/!svn/ver/5/trunk/Geosociety/Classes/monsterScene.cpp
+END
+menuScene+Touch.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/GeoSociety/!svn/ver/19/trunk/Geosociety/Classes/menuScene+Touch.h
+END
+menuScene+Scripts.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/GeoSociety/!svn/ver/19/trunk/Geosociety/Classes/menuScene+Scripts.cpp
+END
+homeScene.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/GeoSociety/!svn/ver/13/trunk/Geosociety/Classes/homeScene.cpp
+END
+battleObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/GeoSociety/!svn/ver/5/trunk/Geosociety/Classes/battleObject.h
+END
+menuScene+Help.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/GeoSociety/!svn/ver/19/trunk/Geosociety/Classes/menuScene+Help.h
+END
+gearLayer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/GeoSociety/!svn/ver/19/trunk/Geosociety/Classes/gearLayer.cpp
+END
+gameEvent.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/GeoSociety/!svn/ver/5/trunk/Geosociety/Classes/gameEvent.h
+END
+menuScene.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/GeoSociety/!svn/ver/21/trunk/Geosociety/Classes/menuScene.cpp
+END
+menuScene+GameEngine.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/GeoSociety/!svn/ver/19/trunk/Geosociety/Classes/menuScene+GameEngine.h
+END
+ElectrinicaAppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/GeoSociety/!svn/ver/5/trunk/Geosociety/Classes/ElectrinicaAppDelegate.h
+END
+HelloWorldScene.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/GeoSociety/!svn/ver/5/trunk/Geosociety/Classes/HelloWorldScene.cpp
+END
+battleScene.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/GeoSociety/!svn/ver/19/trunk/Geosociety/Classes/battleScene.cpp
+END
+monster.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/GeoSociety/!svn/ver/5/trunk/Geosociety/Classes/monster.h
+END
+questTemplate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/GeoSociety/!svn/ver/19/trunk/Geosociety/Classes/questTemplate.cpp
+END

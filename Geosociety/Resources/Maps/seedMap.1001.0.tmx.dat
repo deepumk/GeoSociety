@@ -1,0 +1,34 @@
+Dark Tamer 1|Action Button|DarkTamer.png|Left|Still|15|41||Display Message	We knew it would only be a matter of time before you showed up again!^~Display Message	And so you'll notice we have improved the security level. ^~Display Message	But you only need to worry about that IF you can beat me.^~Start AutoBattle	Lets see what your Monsters can do!^I'm not ready to battle again yet. Sorry.^false^MON,644,17.MON,252,19.MON,259,12.^MON,566,22.^^^~Move Event	Dark Tamer 1^Hide~
+Door 1|Walk Over||Left|Still|36|40||IF	Global Variable^M3.Switch.4^F~IF	Global Variable^M3.Switch.1^T~IF	Global Variable^M3.Switch.3^T~ELSE	~Display Message	The door appears to be locked.^~Move Event	USER^Down~END IF	~ELSE	~Display Message	The door appears to be locked.^~Move Event	USER^Down~END IF	~ELSE	~Display Message	The door appears to be locked.^~Move Event	USER^Down~END IF	~
+Door 2|Walk Over||Left|Still|27|13||IF	Global Variable^M3.Switch.1^F~IF	Global Variable^M3.Switch.2^T~ELSE	~Display Message	The door appears to be locked!^~Move Event	USER^Down~END IF	~ELSE	~Display Message	The door appears to be locked!^~Move Event	USER^Down~END IF	~
+Door 3|Walk Over||Left|Still|34|13||IF	Global Variable^M3.Switch.1^T~IF	Global Variable^M3.Switch.2^T~IF	Global Variable^M3.Switch.3^F~IF	Global Variable^M3.Switch.4^T~ELSE	~Display Message	The door appears to be locked!^~Move Event	USER^Down~END IF	~ELSE	~Display Message	The door appears to be locked!^~Move Event	USER^Down~END IF	~ELSE	~Display Message	The door appears to be locked.^~Move Event	USER^Down~END IF	~ELSE	~Display Message	The door appears to be locked.^~Move Event	USER^Down~END IF	~
+Switch 1|Action Button||Left|Still|10|40||Ask Question - Two Answers	You found a hidden switch. Will you press it?^Yes^No~IF	Global Variable^SYSYesNoAnswer^T~Update Variable	M3.Switch.1^Toogle~Play Sound	Switch~ELSE	~END IF	~
+Switch 1 - Trigger|Action Button||Left|Still|11|40||Call Event	Switch 1~
+Switch 2 - Fake|Action Button||Left|Still|19|40||Display Message	Notice: All Personel please be on the lookout for intruders.^~
+Switch 2 - Fake - Trigger|Action Button||Left|Still|20|40||Call Event	Switch 2 - Fake~
+Switch 3|Action Button||Left|Still|32|40||Ask Question - Two Answers	You found a hidden switch, Will you press it?^Yes^No~IF	Global Variable^SYSYesNoAnswer^T~Update Variable	M3.Switch.2^Toogle~Play Sound	Switch~ELSE	~END IF	~
+Switch 3 - Trigger|Action Button||Left|Still|33|40||Call Event	Switch 3~
+Switch 4 - Fake|Action Button||Left|Still|8|30||Display Message	Notice: We would like to think all members for this months efforts. ^~Display Message	We have mapped out another 10% of the Southern Island.^~Display Message	Still haven't found our primary target.^~
+Switch 4 - Fake - Trigger|Action Button||Left|Still|9|30||Call Event	Switch 4 - Fake~
+Switch 5|Action Button||Left|Still|21|19||Ask Question - Two Answers	You have found a hidden switch, Will you press it?^Yes^No~IF	Global Variable^SYSYesNoAnswer^T~Update Variable	M3.Switch.3^Toogle~Play Sound	Switch~ELSE	~END IF	~
+Switch 5 - Trigger|Action Button||Left|Still|22|19||Call Event	Switch 5~
+Switch 6|Action Button||Left|Still|10|16||Ask Question - Two Answers	You have found a hidden switch, will you press it?^Yes^No~IF	Global Variable^SYSYesNoAnswer^T~Play Sound	Switch~Update Variable	M3.Switch.4^Toogle~ELSE	~END IF	~
+Switch 6- Trigger|Action Button||Left|Still|11|16||Call Event	Switch 6~
+Switch 7 - Fake|Action Button||Left|Still|16|5||Display Message	Notice: Due to the increased security some members have been forgetting their access codes.^~Display Message	If this happens to you, proceedure is to Warp out of the GeoRealm. ^~Display Message	It was a sad day for everyone when Bob forgot he could warp out and starved.^~Display Message	He will be remembered.^~Display Message	And GeoSociety think I'm the bottom of the barrel!^80-04-2.png~
+Switch 7 - Fake - Trigger|Action Button||Left|Still|17|5||Call Event	Switch 7 - Fake~
+Switch 8 - Fake|Action Button||Left|Still|31|13||Display Message	Notice: Can the people posting unneccessary notices please stop it!^~Display Message	It's making our Security System entierly too complicated!^~
+Switch 8 - Fake - Trigger|Action Button||Left|Still|32|13||Call Event	Switch 8 - Fake~
+Treasure 1|Action Button|objects1.png|Down|Still|32|27||Treasure Chest	COIN^1000^500~Move Event	Treasure 1^Hide~
+Treasure 2|Action Button|objects1.png|Down|Still|37|27||Treasure Chest	COIN^2500^500~Move Event	Treasure 2^Hide~
+Treasure 3|Action Button|objects1.png|Down|Still|36|27||Treasure Chest	COIN^2000^500~Move Event	Treasure 3^Hide~
+Treasure 4|Action Button|objects1.png|Down|Still|41|27||Treasure Chest	COIN^2500^500~Move Event	Treasure 4^Hide~
+Treasure 5|Action Button|objects1.png|Down|Still|22|7||Treasure Chest	COIN^2500^500~Move Event	Treasure 5^Hide~
+Treasure 6|Action Button|objects1.png|Down|Still|22|6||Treasure Chest	ITEM^1000^500~Move Event	Treasure 6^Hide~
+Treasure 7|Action Button|objects1.png|Down|Still|31|7||Treasure Chest	ITEM^2500^500~Move Event	Treasure 7^Hide~
+Treasure 8|Action Button|objects1.png|Down|Still|31|8||Treasure Chest	ITEM^1000^50~Move Event	Treasure 8^Hide~
+Treasure 9|Action Button|objects1.png|Down|Still|27|6||Treasure Chest	ITEM^3000^50~Move Event	Treasure 9^Hide~
+Dark Tamer 2|Action Button|DarkTamer.png|Down|Still|11|4||Display Message	Poor Bob!^~Start AutoBattle	Lets see what your Monsters can do!^I'm not ready to battle again yet. Sorry.^false^MON,555,14.MON,226,20.MON,260,21.^^^^~Move Event	Dark Tamer 2^Hide~
+Warp Upper 1|Walk Over||Left|Still|34|4||Fade Out	~Relocate User	seedMap.1001.1.tmx^21^33~Change Weather	Night~Fade In	~
+Warp Upper 2|Walk Over||Left|Still|35|4||Call Event	Warp Upper 1~
+Treasure 10|Action Button|objects1.png|Down|Still|9|17||Treasure Chest	COIN^3000^500~Move Event	Treasure 10^Hide~
+Test|Walk Over||Left|Still|29|14||IF	Global Variable^M3.Switch.1^T~Display Message	1 is T^~ELSE	~Display Message	1 is F^~END IF	~IF	Global Variable^M3.Switch.2^T~Display Message	2 is T^~ELSE	~Display Message	2 is F^~END IF	~IF	Global Variable^M3.Switch.3^T~Display Message	3 is T^~ELSE	~Display Message	3 is F^~END IF	~IF	Global Variable^M3.Switch.4^T~Display Message	4 is T^~ELSE	~Display Message	4 is F^~END IF	~

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/GeoSociety/!svn/ver/9/trunk/Geosociety/libs/chipmunk/src
+END
+chipmunk.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/GeoSociety/!svn/ver/9/trunk/Geosociety/libs/chipmunk/src/chipmunk.c
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/GeoSociety/!svn/ver/9/trunk/Geosociety/libs/chipmunk/src/CMakeLists.txt
+END

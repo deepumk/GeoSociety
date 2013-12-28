@@ -1,0 +1,6 @@
+Warp to Room 1|Walk Over||Left|Still|20|10||Relocate User	homeUpper.tmx^18^13~
+Warp to Room 2|Walk Over||Left|Still|21|10||Relocate User	homeUpper.tmx^18^13~
+Warp to Town 1|Walk Over||Left|Still|18|16||Play Sound	Door~Relocate User	town.tmx^18^28~
+Warp to Town 2|Walk Over||Left|Still|17|16||Play Sound	Door~Relocate User	town.tmx^18^28~
+Warp to Town 3|Walk Over||Left|Still|19|16||Play Sound	Door~Relocate User	town.tmx^18^28~
+TV|Action Button||Left|Still|15|9||IF	Global Variable^hasCompletedMission1^F~Display Message	Breaking News: GeoMonster Battles in the GeoRealm are causing world-wide havoc across the Power Grid.^~Display Message	Next Up: Nyan Cat spotted somewhere near Mars.^~ELSE	~Display Message	News: After the disappearance of GeoSociety Founder Ilast Steelem and his Son Ten Years ago...^~Display Message	... is the GeoSociety really still in control?^~END IF	~

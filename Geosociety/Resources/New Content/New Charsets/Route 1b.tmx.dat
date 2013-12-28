@@ -1,0 +1,5 @@
+Warp Route 1a.1|Walk Over||Left|Still|0|30||Fade Out	~Relocate User	Route 1a.tmx^46^30~Fade In	~
+Warp Route 1a.2|Walk Over||Left|Still|0|31||Call Event	Warp Route 1a.1~
+Warp Route 1a.3|Walk Over||Left|Still|0|34||Fade Out	~Relocate User	Route 1a.tmx^46^34~Fade In	~
+Warp Route 1a.4|Walk Over||Left|Still|0|35||Call Event	Warp Route 1a.3~
+Blockade.Clive|Action Button|14Clive.png|Down|Still|12|32||Display Message	Dont you have missions to be working on!^80-14.png~

@@ -1,0 +1,10 @@
+Hopipop1|Walk Over|hopipop.png|Left|Slow Random|34|5||
+Hopipop2|Walk Over|hopipop.png|Left|Slow Random|41|22||
+Hopipop3|Walk Over|hopipop.png|Left|Slow Random|32|15||
+Hopipop4|Action Button|hopipop.png|Left|Slow Random|33|25||
+Mon1|Action Button|Aquaff.png|Left|Slow Random|32|38||
+Mon2|Action Button|Skuli.png|Left|Slow Random|33|39||
+Warp Route 1.1|Walk Over||Left|Still|12|0||Fade Out	~Relocate User	Route 1a.tmx^13^46~Fade In	~
+Warp Route 1.2|Walk Over||Left|Still|13|0||Call Event	Warp Route 1.1~
+Warp Route 1.3|Walk Over||Left|Still|14|0||Call Event	Warp Route 1.1~
+Old Man|Action Button|12OldTom.png|Down|Still|24|41||Display Message	Why hello young tamer.^80-12-1.png~Display Message	Me and my wife manage this here GeoMonster farm.^80-12-1.png~Display Message	We should be open for business in the next App Update.^80-12-3.png~

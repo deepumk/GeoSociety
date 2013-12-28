@@ -1,0 +1,15 @@
+Warp B 1|Walk Over||Left|Still|18|0||Relocate User	Mission1b.tmx^18^46~Change Weather	Heavy Rain~Update Variable	M1.hasWitnessedAttackScene^F~
+Warp B 2|Walk Over||Left|Still|19|0||Relocate User	Mission1b.tmx^19^46~Change Weather	Heavy Rain~
+Talk To Self 1|Walk Over||Left|Still|22|29||IF	Global Variable^hasTalkedToSelfMission1^F~Display Message	Very....^80-04-4.png~Display Message	Floral!^80-04-2.png~Update Variable	hasTalkedToSelfMission1^T~ELSE	~END IF	~
+Talk To Self 2|Walk Over||Left|Still|23|29||Call Event	Talk To Self 1~
+Treasure 1|Action Button|objects1.png|Down|Still|23|20||Treasure Chest	COIN^100^50~
+Treasure 2|Action Button|objects1.png|Down|Still|30|20||Treasure Chest	ITEM^100^100~
+Treasure 3|Action Button|objects1.png|Down|Still|5|32||Treasure Chest	ITEM^100^100~
+Treasure 4|Action Button|objects1.png|Down|Still|41|6||Treasure Chest	ITEM^100^100~
+Treasure 5|Action Button|objects1.png|Down|Still|40|6||Treasure Chest	ITEM^100^100~
+Battler 1|View Collision x1|femalered1.png|Right|Still|16|24||Start AutoBattle	Lets see what your Monsters can do!^I'm not ready to battle again yet. Sorry.^false^MON,001,3.MON,052,3.^^^^~
+Battler 2|View Collision x1|maleblue.png|Right|Still|10|38||Start AutoBattle	I think I'm lost, I need a Battle to Clear my Head!^I'm not ready to battle again yet. Sorry.^false^MON,270,4.^^^^~
+Angel 1|Walk Over|femalebrown.png|Right|Still|19|3|Global Variable^hasMetAngelOnMission1^F~|
+Angel Trigger|Walk Over||Left|Still|18|3||IF	Global Variable^hasMetAngelOnMission1^F~Move Event	Angel 1^Face Left~Move Event	Angel 1^Jump~Display Message	Kyro! What are you doing here!?^80-33-1.png~Display Message	You were given the same mission weren't you?^80-33-2.png~Display Message	Think I'll teach you what this Jobs all about!^80-33-4.png~Start Battle	False^MON,064,4.MON,354,5.MON,064,4.^^^^~Update Variable	hasMetAngelOnMission1^T~Display Message	I don't care if you beat me. I'm still going to complete the mission before you!^80-33-2.png~Move Event	Angel 1^Up~Move Event	Angel 1^Up~Move Event	Angel 1^Up~Sync All Events	~Move Event	Angel 1^Hide~ELSE	~END IF	~
+Battler 3|View Collision x1|femalered.png|Left|Still|7|14||Start AutoBattle	Lets see what your Monsters can do!^I'm not ready to battle again yet. Sorry.^false^MON,004,4.MON,021,4.^^^^~
+Battler 4|Action Button|maleblue3.png|Left|Still|41|10||Start AutoBattle	My Chikro will destroy you!^I'm not ready to battle again yet. Sorry.^false^MON,017,4.MON,017,4.MON,017,5.^^^^~

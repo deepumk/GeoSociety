@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/GeoSociety/!svn/ver/5/trunk/Geosociety/Classes/GUI%20Stuff
+END
+CoolInput.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/GeoSociety/!svn/ver/5/trunk/Geosociety/Classes/GUI%20Stuff/CoolInput.h
+END
+CoolLabel.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/GeoSociety/!svn/ver/5/trunk/Geosociety/Classes/GUI%20Stuff/CoolLabel.h
+END
+CoolFreeform.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/GeoSociety/!svn/ver/13/trunk/Geosociety/Classes/GUI%20Stuff/CoolFreeform.cpp
+END
+CoolSprite.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/GeoSociety/!svn/ver/13/trunk/Geosociety/Classes/GUI%20Stuff/CoolSprite.cpp
+END
+CoolFreeform.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/GeoSociety/!svn/ver/5/trunk/Geosociety/Classes/GUI%20Stuff/CoolFreeform.h
+END
+CoolSprite.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/GeoSociety/!svn/ver/5/trunk/Geosociety/Classes/GUI%20Stuff/CoolSprite.h
+END
+CoolInput.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/GeoSociety/!svn/ver/13/trunk/Geosociety/Classes/GUI%20Stuff/CoolInput.cpp
+END
+CoolLabel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/GeoSociety/!svn/ver/13/trunk/Geosociety/Classes/GUI%20Stuff/CoolLabel.cpp
+END

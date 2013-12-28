@@ -1,0 +1,11 @@
+Warp A 1|Walk Over||Left|Still|18|47||Relocate User	Mission1a.tmx^18^1~Change Weather	Glare~
+Warp A 2|Walk Over||Left|Still|19|47||Relocate User	Mission1a.tmx^19^1~Change Weather	Glare~
+Warp C 1|Walk Over||Left|Still|0|12||Relocate User	Mission1c.tmx^46^12~
+Warp C 2|Walk Over||Left|Still|0|13||Relocate User	Mission1c.tmx^46^13~
+Dark Event - Main|Walk Over||Left|Still|6|15||IF	Global Variable^hasMetDarkTamers^F~Display Message	This is just too easy!^80-19.png~Display Message	We've already caught over our Quota of GeoMonsters.^80-19.png~Display Message	Though I dont care much for the species in this area.^80-19.png~Display Message	But are you sure we should hang around like this in broad daylight?^80-20.png~Display Message	Its fine...  .... *snap*^80-19.png~Display Message	What was that!?^80-20.png~Display Message	Your such a wimp!^80-19.png~Display Message	Come on... We're moving out.^80-19.png~Move Event	Dark Tamer 2^Left~Sync All Events	~Move Event	Dark Tamer 1^Left~Move Event	Dark Tamer 2^Left~Move Event	Dark Tamer 1^Left~Move Event	Dark Tamer 2^Left~Move Event	Dark Tamer 1^Left~Sync All Events	~Move Event	Dark Tamer 2^Hide~Move Event	Dark Tamer 1^Left~Sync All Events	~Move Event	Dark Tamer 1^Hide~Update Variable	hasMetDarkTamers^T~ELSE	~END IF	~
+Dark Tamer 1|Walk Over|DarkTamer.png|Left|Still|4|12|Global Variable^hasMetDarkTamers^F~|
+Dark Tamer 2|Walk Over|DarkTamer.png|Right|Still|3|12|Global Variable^hasMetDarkTamers^F~|
+Dark Event - Trigger 2|Walk Over||Left|Still|7|15||Call Event	Dark Event - Main~
+Battler 1|View Collision x1|femaleblue.png|Right|Still|20|16||Start AutoBattle	I like Water Element Monsters!^I'm not ready to battle again yet. Sorry.^false^MON,021,4.MON,027,6.MON,059,4.^^^^~
+Battler 2|View Collision x1|femalered.png|Right|Still|28|25||Start AutoBattle	It's amazing the kind of Monsters here!^I'm not ready to battle again yet. Sorry.^false^MON,554,4.MON,025,4.MON,554,4.^^^^~
+Battler 3|View Collision x1|femaledarkgray.png|Left|Still|19|36||Start AutoBattle	Bring it On!^I'm not ready to battle again yet. Sorry.^false^MON,007,4.MON,001,4.MON,004,4.^^^^~
